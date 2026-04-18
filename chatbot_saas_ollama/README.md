@@ -1,62 +1,88 @@
-# 🚀 Artificial Intelligence
+# 🤖 AI Chatbot with Mistral (Ollama)
 
-Repository for experimenting with AI concepts, learning, and prototyping small AI projects.  
-Currently focused on neural networks, image processing, and data analysis experiments.
+This project is a hands-on experiment where I built a functional AI chatbot from scratch, using a local large language model.
 
----
-
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Usage](#usage)
-- [Authors](#authors)
+The goal was simple: learn by doing, step outside my comfort zone, and understand how modern AI tools can be integrated into a real web application.
 
 ---
 
-## 👀 Overview <a id="overview"></a>
+## 👀 Overview
 
-This repository is dedicated to experimenting with AI concepts, testing new algorithms, and building small to complex AI projects.  
-It contains various Python scripts for machine learning, image processing, and neural network experiments.  
-**Anaconda** is used to manage the Python environment and dependencies for AI libraries.
+This chatbot is powered by a Mistral model running locally via Ollama, and connected to a web interface using JavaScript.
 
----
-
-## ✨ Features <a id="features"></a>
-
-This project includes several AI-related features, such as:
-
-- Image processing with Python and scikit-image
-- Neural network prototypes
-- Data preprocessing pipelines
-- AI experiments for computer vision and machine learning
-- Algorithm testing and benchmarking
+The project demonstrates how to:
+- Run an AI model locally (no external API)
+- Connect a frontend interface to a local AI server
+- Send and handle user prompts in real time
+- Build a working chatbot even with limited JavaScript experience
 
 ---
 
-## 💡 Usage <a id="usage"></a>
+## ⚙️ Tech Stack
 
-You can clone this repository and run the Python scripts directly.
-
-```bash
-git clone git@github.com:Louis-Cagnion/Artificial-Intelligence.git AI-Project
-cd AI-Project
-```
-
-Then create a new Anaconda environment and install the required dependencies:
-
-```bash
-# Create environment with Python 3.10
-conda create -n ai-env python=3.10
-conda activate ai-env
-
-# Install dependencies
-pip install numpy matplotlib scikit-image tensorflow keras
-```
-
-After that, open the scripts in your favorite Python IDE (Spyder, PyCharm, VSCode) and run them.
+- **Mistral (LLM)** – language model used for responses  
+- **Ollama** – local model hosting  
+- **JavaScript (frontend)** – chatbot interface and API calls  
+- **HTML/CSS** – basic UI  
 
 ---
 
-## 🧑‍💻 Author <a id="author"></a>
+## ✨ Features
 
-Created and maintained by @Louis-Cagnion
+- Local AI chatbot (no cloud dependency)  
+- Real-time interaction with the model  
+- Simple and lightweight web interface  
+- Custom prompt handling  
+
+---
+
+## 💡 How It Works
+
+1. The Mistral model runs locally via Ollama  
+2. The web app sends user input to the model using its local IP  
+3. The model processes the prompt and returns a response  
+4. The response is displayed in the chatbot interface  
+
+---
+
+## 🚀 Usage
+
+### 1. Clone the repository
+
+???
+git clone git@github.com:Louis-Cagnion/Artificial-Intelligence.git
+cd Artificial-Intelligence
+???
+
+### 2. Start Ollama with Mistral
+
+Make sure Ollama is installed, then run:
+
+???
+ollama run mistral
+???
+
+### 3. Run the frontend
+
+Open the HTML/JS project in your browser (or use a local server).
+
+---
+
+## 📈 Next Improvements
+
+- Improve UI/UX design  
+- Optimize prompt engineering  
+- Add conversation memory  
+- Enhance performance and response handling  
+
+---
+
+## 🧑‍💻 Author
+
+Created and maintained by Louis-Cagnion  
+
+---
+
+## 💬 Feedback
+
+Feel free to open an issue, suggest improvements, or reach out if you want to discuss the project.
