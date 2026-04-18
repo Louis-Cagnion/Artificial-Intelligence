@@ -7,7 +7,6 @@ Repository for experimenting with AI concepts, learning, and prototyping small A
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Usage](#usage)
 - [Authors](#authors)
 
 ---
