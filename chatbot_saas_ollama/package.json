@@ -1,0 +1,16 @@
+{
+  "name": "chatbot_saas_ollama",
+  "version": "1.0.0",
+  "description": "Repository for experimenting with AI concepts, learning, and prototyping small AI projects.   Currently focused on neural networks, image processing, and data analysis experiments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
