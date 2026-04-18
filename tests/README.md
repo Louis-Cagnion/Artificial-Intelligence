@@ -1,62 +1,115 @@
-# 🚀 Artificial Intelligence
+# 🧪 AI Experiments Lab
 
-Repository for experimenting with AI concepts, learning, and prototyping small AI projects.  
-Currently focused on neural networks, image processing, and data analysis experiments.
+This repository is a personal sandbox where I experiment with different AI concepts, tools, and techniques.
 
----
-
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Usage](#usage)
-- [Authors](#authors)
+The goal is simple: learn by doing, test ideas quickly, and better understand how AI works under the hood.
 
 ---
 
-## 👀 Overview <a id="overview"></a>
+## 👀 Overview
 
-This repository is dedicated to experimenting with AI concepts, testing new algorithms, and building small to complex AI projects.  
-It contains various Python scripts for machine learning, image processing, and neural network experiments.  
-**Anaconda** is used to manage the Python environment and dependencies for AI libraries.
+This project contains multiple independent experiments around artificial intelligence, including:
 
----
+- Neural networks (from simple to more advanced concepts)
+- Image processing with Python
+- Data manipulation and statistical analysis
+- Mathematical explorations using NumPy
+- Data visualization with Matplotlib
+- Hardware testing (GPU with TensorFlow)
 
-## ✨ Features <a id="features"></a>
-
-This project includes several AI-related features, such as:
-
-- Image processing with Python and scikit-image
-- Neural network prototypes
-- Data preprocessing pipelines
-- AI experiments for computer vision and machine learning
-- Algorithm testing and benchmarking
+Each file is a standalone experiment focused on a specific concept.
 
 ---
 
-## 💡 Usage <a id="usage"></a>
+## 📂 Project Structure
 
-You can clone this repository and run the Python scripts directly.
+- `linear_neural_network.py`  
+  → Simple neural network (y = 2x) to understand how weights and bias evolve during training
 
-```bash
-git clone git@github.com:Sung-Jinw00/Artificial-Intelligence.git AI-Project
-cd AI-Project
+- `main.py`  
+  → Multiple experiments:
+  - image processing (grayscale, cropping, filtering)
+  - NumPy operations and data transformations
+  - statistics (mean, variance, standard deviation, NaN handling)
+  - data standardization
+  - data visualization with Matplotlib
+
+- `test.py`  
+  → Checks if TensorFlow detects available GPUs
+
+---
+
+## ⚙️ Tech Stack
+
+- **Python**
+- **NumPy**
+- **Matplotlib**
+- **scikit-image**
+- **TensorFlow / Keras**
+
+---
+
+## ✨ What I’m Learning
+
+Through these experiments, I explore:
+
+- How neural networks learn (weights, bias, loss)
+- How to manipulate and clean data
+- How to visualize data effectively
+- How to handle edge cases like missing values (NaN)
+- How to structure small AI experiments
+
+---
+
+## 🚀 Usage
+
+### 1. Clone the repository
+
+```
+git clone git@github.com:Louis-Cagnion/Artificial-Intelligence.git
+cd Artificial-Intelligence/tests
 ```
 
-Then create a new Anaconda environment and install the required dependencies:
+### 2. Create a Python environment
 
-```bash
-# Create environment with Python 3.10
+```
 conda create -n ai-env python=3.10
 conda activate ai-env
+```
 
-# Install dependencies
+### 3. Install dependencies
+
+```
 pip install numpy matplotlib scikit-image tensorflow keras
 ```
 
-After that, open the scripts in your favorite Python IDE (Spyder, PyCharm, VSCode) and run them.
+### 4. Run experiments
+
+Run any file depending on what you want to explore:
+
+```
+python linear_neural_network.py
+python main.py
+python test.py
+```
 
 ---
 
-## 🧑‍💻 Author <a id="author"></a>
+## 📈 Next Experiments
 
-Created and maintained by @Sung_Jinw00
+- More advanced neural networks
+- Integration with LLMs (Mistral, Ollama)
+- Building real-world AI applications (chatbots, APIs)
+- Performance optimization and model tuning
+
+---
+
+## 🧑‍💻 Author
+
+Created and maintained by Louis-Cagnion
+
+---
+
+## 💬 Feedback
+
+This is an experimental repository, so feel free to explore, suggest improvements, or reach out if you want to discuss ideas.

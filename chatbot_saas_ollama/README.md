@@ -49,18 +49,18 @@ The project demonstrates how to:
 
 ### 1. Clone the repository
 
-???
+```
 git clone git@github.com:Louis-Cagnion/Artificial-Intelligence.git
 cd Artificial-Intelligence
-???
+```
 
 ### 2. Start Ollama with Mistral
 
 Make sure Ollama is installed, then run:
 
-???
+```
 ollama run mistral
-???
+```
 
 ### 3. Run the frontend
 
